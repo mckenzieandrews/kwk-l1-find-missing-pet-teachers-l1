@@ -2,9 +2,7 @@ require_relative './spec_helper.rb'
 
 describe 'What should be inside /cats' do
   context 'inside of cats/indoor should be' do
-    it "the alley cat" do
-      expect(File).to exist('./cats/indoor/back-alley/alley-cat.gif'), "\nDid you place alley-cat.gif inside the /cats/indoor/back-alley folder?"
-    end
+  
 
     it "Grandma's cat" do
       expect(File).to exist('./cats/indoor/grandmas-house/grandma-cat.jpg'), "\nDid you place grandma-cat.jpg inside the /cats/indoor/grandmas-house/ folder?"
